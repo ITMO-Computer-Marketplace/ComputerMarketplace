@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/computer-marketplace/static/css/main.1916f3f0.css",
+    "main.js": "/computer-marketplace/static/js/main.f0df4f65.js",
+    "static/media/big-planet.jpg": "/computer-marketplace/static/media/big-planet.e522a84a1ce6600c8f79.jpg",
+    "index.html": "/computer-marketplace/index.html",
+    "main.1916f3f0.css.map": "/computer-marketplace/static/css/main.1916f3f0.css.map",
+    "main.f0df4f65.js.map": "/computer-marketplace/static/js/main.f0df4f65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1916f3f0.css",
+    "static/js/main.f0df4f65.js"
+  ]
+}
