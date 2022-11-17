@@ -1,0 +1,54 @@
+.input-icon-underlined, .password-input{
+  display: flex;
+  align-items: center;
+  position: relative;
+  &__elem{
+    width: 100%;
+    background: transparent;
+    color: $majorFontCol;
+    border: none;
+    border-bottom: 2px solid $disabledCol;
+    padding: 6px 10px 7px 27px;
+    &::placeholder {
+      color: $majorFontCol;
+    }
+  }
+  &__elem--error{
+    border-bottom: 2px solid $errorCol;
+  }
+  &__elem:focus{
+    border-bottom: 2px solid $majorFontCol;
+  }
+  &__icon{
+    position: absolute;
+    left: 0;
+    padding-bottom: 5px;
+    width: 17px;
+  }
+}
+
+.password-input{
+  &__elem{
+    padding: 6px 30px 7px 27px;
+  }
+  &__view{
+    position: absolute;
+    right: 0px;
+    height: 25px;
+  }
+}
+
+.checkbox{
+  cursor: pointer;
+  max-height: 17px;
+  max-width: 17px;
+  & img{
+    height: 17px;
+    width: 17px;
+  }
+  &__input{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+}
