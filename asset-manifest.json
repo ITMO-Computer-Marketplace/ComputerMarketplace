@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/ComputerMarketplace/static/css/main.1916f3f0.css",
-    "main.js": "/ComputerMarketplace/static/js/main.9ab074e9.js",
+    "main.css": "/ComputerMarketplace/static/css/main.f390bb97.css",
+    "main.js": "/ComputerMarketplace/static/js/main.89cca5ee.js",
     "static/media/big-planet.jpg": "/ComputerMarketplace/static/media/big-planet.e522a84a1ce6600c8f79.jpg",
+    "static/media/red-clouds.jpg": "/ComputerMarketplace/static/media/red-clouds.3b05d8fe6d3668ad72fe.jpg",
+    "static/media/product-img.png": "/ComputerMarketplace/static/media/product-img.c41a23b410972ffce847.png",
+    "static/media/logo.png": "/ComputerMarketplace/static/media/logo.9b3b7998afd33953faa5.png",
     "index.html": "/ComputerMarketplace/index.html",
-    "main.1916f3f0.css.map": "/ComputerMarketplace/static/css/main.1916f3f0.css.map",
-    "main.9ab074e9.js.map": "/ComputerMarketplace/static/js/main.9ab074e9.js.map"
+    "main.f390bb97.css.map": "/ComputerMarketplace/static/css/main.f390bb97.css.map",
+    "main.89cca5ee.js.map": "/ComputerMarketplace/static/js/main.89cca5ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.1916f3f0.css",
-    "static/js/main.9ab074e9.js"
+    "static/css/main.f390bb97.css",
+    "static/js/main.89cca5ee.js"
   ]
 }
