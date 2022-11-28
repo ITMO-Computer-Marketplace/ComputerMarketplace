@@ -20,6 +20,7 @@ const AppRouter = () => {
         : <>
           <Route path={RouteNames.SIGNIN} element={<SignIn/>}/>
           <Route path={RouteNames.SIGNUP} element={<SignUp/>}/>
+          <Route path={RouteNames.FEED} element={<FeedPage/>}/>
           <Route path={'*'} element={<PageNotFound path={RouteNames.SIGNIN}/>}/>
         </>
       }

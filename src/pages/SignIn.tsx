@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import {usePasswordInput} from "../UI/InputsApplied/usePasswordInput";
 import {useEmailInput} from "../UI/InputsApplied/useEmailInput";
 import {RouteNames} from "../routes";
@@ -11,9 +11,12 @@ const SignIn = () => {
   const {emailInput, email} = useEmailInput('', '', '', 'Введите ваш email')
   const [isRemembered, setIsRemembered] = useState(false)
 
+  const navigator = useNavigate()
+
   function signIn(e: React.FormEvent){
     e.preventDefault()
     alert(`email: ${email.value}; password: ${password.value}; запомнить пароль: ${isRemembered}`)
+    navigator(RouteNames.FEED)
   }
 
   return (
