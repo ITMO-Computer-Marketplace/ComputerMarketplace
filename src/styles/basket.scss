@@ -1,0 +1,104 @@
+.basket{
+  &__order-box{
+    margin: 0 auto 30px;
+    width: 60vw;
+    background-color: rgba(#FFFFFF, .2);
+  }
+  &__order-title{
+    font-family: 'Anek Tamil', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: black;
+    padding: 30px 80px;
+    border-bottom: 1px solid #E5E5E5;
+  }
+  &__order-header{
+    padding: 47px 80px 30px 80px;
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    justify-items: center;
+    font-family: 'Anek Tamil', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: black;
+  }
+  &__order-header-item{
+    justify-self: start;
+    padding-left: 15px;
+  }
+  &__order-list-item{
+    color: black;
+    font-size: 18px;
+    margin: 0px 80px;
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #E1E1E4;
+  }
+  &__order-list-info{
+    font-family: 'Anek Tamil', sans-serif;
+    display: flex;
+  }
+  &__order-list-texts{
+    display: flex;
+    flex-direction: column;
+  }
+  &__order-list-name{
+    color: black;
+    font-weight: 700;
+  }
+  &__order-list-color{
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &__order-list-img-box{
+    min-width: 105px;
+    max-width: 105px;
+    min-height: 105px;
+    max-height: 105px;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+  }
+  &__order-list-del-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+  }
+  &__order-btn{
+    color: $majorFontCol;
+    padding: 21px 50px;
+    font-size: 20px;
+    background: linear-gradient(180deg, rgba(44, 35, 213, 0.21) 0%, #F80920 100%);
+    box-shadow: 0px 4px 46px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    height: 100%;
+  }
+  &__order-total{
+    color: black;
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  &__order-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 30px;
+  }
+}

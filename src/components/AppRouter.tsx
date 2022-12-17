@@ -5,16 +5,20 @@ import PageNotFound from "../pages/PageNotFound";
 import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
 import {RouteNames} from "../routes";
+import BasketPage from "../pages/BasketPage";
+import AboutPage from "../pages/AboutPage";
 
 const AppRouter = () => {
 
-  let isAuth = false
+  let isAuth = true
 
   return (
     <Routes>
       {isAuth
         ? <>
           <Route path={RouteNames.FEED} element={<FeedPage/>}/>
+          <Route path={RouteNames.BASKET} element={<BasketPage/>}/>
+          <Route path={RouteNames.ABOUT} element={<AboutPage/>}/>
           <Route path={'*'} element={<PageNotFound path={RouteNames.FEED}/>}/>
         </>
         : <>

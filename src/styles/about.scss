@@ -1,0 +1,10 @@
+.about{
+  &__main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    color: white;
+    font-size: 23px;
+    font-family: 'Anek Tamil', sans-serif;
+  }
+}
